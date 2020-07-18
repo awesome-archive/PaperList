@@ -9,25 +9,30 @@ Our list is incomplete. We will keep adding papers and improving it. Any suggest
 
 | Section | # of Papers |
 |:---:|:---:|
-| [Chinese Classical Poetry Generation](#chinese_classical) | 17 |
+| [Chinese Classical Poetry Generation](#chinese_classical) | 21 |
 | [Chinese Couplet Generation](#chinese_couplet) | 2 |
-| [Poetry Generation for Other Languages](#non_chinese) | 11 |
+| [Modern Chinese Poetry Generation](#morden_chinese) | 1 |
+| [Poetry Generation for Other Languages](#non_chinese) | 14 |
 | [Multimodal Poetry Generation](#multimodal) | 4 |
-| [Poetry Analysis](#analysis) | 2 |
-| [Poetry Translation](#translation) | 2 |
-| [Demo](#demo) | 2 |
+| [Poetry Analysis](#analysis) | 3|
+| [Poetry Translation](#translation) | 3|
+| [Demo](#demo) | 4|
 | [Survey](#survey) | 2 |
 
 
 <h2 id="chinese_classical">Chinese Classical Poetry Generation</h2>
 
+* Piji Li and Haisong Zhang and Xiaojiang Liu and Shuming Shi. 2020. [Rigid Formats Controlled Text Generation](https://www.aclweb.org/anthology/2020.acl-main.68.pdf). In *Proceedings of ACL 2020*.
+* Xiaoyuan Yi, Ruoyu Li, Cheng Yang, Wenhao Li and Maosong Sun. 2020. [MixPoet: Diverse Poetry Generation via Learning Controllable Mixed Latent Space](https://arxiv.org/pdf/2003.06094.pdf). In *Proceedings of AAAI 2020*. &nbsp; \[[code](https://github.com/THUNLP-AIPoet/MixPoet)\]
+* Liming Deng, Jie Wang, Hangming Liang, Hui Chen, Zhiqiang Xie, Bojin Zhuang, Shaojun Wang and Jing Xiao. 2020. [An Iterative Polishing Framework based on Quality Aware Masked LanguageModel for Chinese Poetry Generation](https://arxiv.org/pdf/1911.13182.pdf). In *Proceedings of AAAI 2020*.
+* Huimin Chen, Xiaoyuan Yi, Maosong Sun, Wenhao Li, Cheng Yang and Zhipeng Guo. 2019. [Sentiment-Controllable Chinese Poetry Generation](https://www.ijcai.org/proceedings/2019/0684.pdf). In *Proceedings of IJCAI 2019*.
 * Jiannan Liang, Maosong Sun, Xiaoyuan Yi, Cheng Yang, Huimin Chen and Zhenghao Liu. 2019. [Neural Network-Based Jiju Poetry Generation](http://jcip.cipsc.org.cn/CN/volumn/volumn_1312.shtml). *Journal of Chinese Information Processing*, 33(3):126–135. (In Chinese)
 * Cheng Yang, Maosong Sun, Xiaoyuan Yi, and Wenhao Li. 2018. [Stylistic Chinese Poetry Generation via Unsupervised Style Disentanglement](https://aclweb.org/anthology/D18-1430). In *Proceedings of EMNLP 2018*. &nbsp; \[[code](https://github.com/thunlp-poetry/StylisticPoetry)\]
 * Juntao Li, Yan Song, Haisong Zhang, Dongmin Chen, Shuming Shi, Dongyan Zhao, and Rui Yan. 2018. [Generating Classical Chinese Poems via Conditional Variational Autoencoder and Adversarial Training](https://aclweb.org/anthology/D18-1423). In *Proceedings of EMNLP 2018*.
 * Xiaoyuan Yi, Maosong Sun, Ruoyu Li, and Wenhao Li. 2018. [Automatic Poetry Generation with Mutual Reinforcement Learning](https://aclweb.org/anthology/D18-1353). In *Proceedings of EMNLP 2018*.
 * Xiaoyuan Yi, Ruoyu Li and Maosong Sun. 2018. [Chinese Poetry Generation with a Salient-Clue Mechanism](https://www.aclweb.org/anthology/K18-1024). In *Proceedings of CoNLL 2018*.
 * Xiaopeng Yang, Xiaowen Lin, Shunda Suo and Ming Li. 2018. [Generating Thematic Chinese Poetry using Conditional Variational Autoencoders with Hybrid Decoders](https://www.ijcai.org/proceedings/2018/0631.pdf). In *Proceedings of IJCAI 2018*.
-* Xiaoyuan Yi, Maosong Sun, Ruoyu Li and Zonghan Yang. 2018. [Chinese Poetry Generation with a Working Memory Model](https://www.ijcai.org/proceedings/2018/0633.pdf). In *Proceedings of IJCAI 2018*.
+* Xiaoyuan Yi, Maosong Sun, Ruoyu Li and Zonghan Yang. 2018. [Chinese Poetry Generation with a Working Memory Model](https://www.ijcai.org/proceedings/2018/0633.pdf). In *Proceedings of IJCAI 2018*.  &nbsp; \[[code](https://github.com/THUNLP-AIPoet/WMPoetry)\]
 * Xiaoyuan Yi, Ruoyu Li, and Maosong Sun. 2017. [Generating Chinese Classical Poems with RNN Encoder-Decoder](https://link.springer.com/chapter/10.1007/978-3-319-69005-6_18). In *Proceedings of CCL 2017*.
 * Jiyuan Zhang, Yang Feng, Dong Wang, Yang Wang, Andrew Abel, Shiyue Zhang, and Andi Zhang. 2017. [Flexible and Creative Chinese Poetry Generation Using Neural Memory](https://www.aclweb.org/anthology/P17-1125). In *Proceedings of ACL 2017*.
 * Zhe Wang, Wei He, Hua Wu, Haiyang Wu, Wei Li, Haifeng Wang, and Enhong Chen. 2016. [Chinese Poetry Generation with Planning Based Neural Network](https://www.aclweb.org/anthology/C16-1100). In *Proceedings of COLING 2016*.
@@ -44,8 +49,15 @@ Our list is incomplete. We will keep adding papers and improving it. Any suggest
 * Rui Yan, Cheng-Te Li, Xiaohua Hu and Ming Zhang. 2016. [Chinese Couplet Generation with Neural Network Structures](https://www.aclweb.org/anthology/P16-1222). In *Proceedings of ACL 2016*.
 * Long Jiang and Ming Zhou. 2008. [Generating Chinese Couplets Using A Statistical Machine Translation Approach](https://www.aclweb.org/anthology/C08-1048). In *Proceedings of COLING 2008*.
 
+<h2 id="morden_chinese">Modern Chinese Poetry Generation</h2>
+
+* Zhiqiang Liu, Zuohui Fu, Jie Cao, Gerard de Melo, Yik-Cheung Tam, Cheng Niu and Jie Zhou. 2019. [Rhetorically Controlled Encoder-Decoder for Modern Chinese Poetry Generation](https://www.aclweb.org/anthology/P19-1192). In *Proceedings of ACL 2019*. &nbsp; \[[code](https://github.com/Lucien-qiang/Rhetoric-Generator)\]
+
 <h2 id="non_chinese">Poetry Generation for Other Languages</h2>
 
+* Tim Van de Cruys. 2020. [Automatic Poetry Generation from Prosaic Text](https://www.aclweb.org/anthology/2020.acl-main.223.pdf). In *Proceedings of ACL 2020*.
+* Piji Li and Haisong Zhang and Xiaojiang Liu and Shuming Shi. 2020. [Rigid Formats Controlled Text Generation](https://www.aclweb.org/anthology/2020.acl-main.68.pdf). In *Proceedings of ACL 2020*.
+* Mika Hamalainen and Khalid Alnajjar. [Generating Modern Poetry Automatically in Finnish](https://www.aclweb.org/anthology/D19-1617.pdf). In *Proceedings of EMNLP 2019*. 
 * John Benhart, Tianlin Duan, Peter Hase, Liuyi Zhu and Cynthia Rudin. 2018. [Shall I Compare Thee to a Machine-Written Sonnet? An Approach to Algorithmic Sonnet Generation](https://arxiv.org/pdf/1811.05067.pdf). *arXiv 2018*.
 * Jack Hopkins and Douwe Kiela. 2017. [Automatically Generating Rhythmic Verse with Neural Networks](https://www.aclweb.org/anthology/P17-1016). In *Proceedings of ACL 2017*.
 * Marjan Ghazvininejad, Xing Shi, Yejin Choi and Kevin Knight. 2016. [Generating Topical Poetry](https://www.aclweb.org/anthology/D16-1126). In *Proceedings of EMNLP 2016*.
@@ -67,16 +79,20 @@ Our list is incomplete. We will keep adding papers and improving it. Any suggest
 
 <h2 id="analysis">Poetry Analysis</h2>
 
+* Jiannan Liang, Maosong Sun and Xiaoyuan Yi. 2019. [Neural Network-Based Poetry Retrieval](http://cips-cl.org/static/anthology/CCL-2019/CCL-19-019.pdf). In *Proceedings of CCL 2019*. (In Chinese)
 * Manex Agirrezabal, Inaki Alegria and Mans Hulden. 2016. [Machine Learning for Metrical Analysis of English Poetry](https://www.aclweb.org/anthology/C16-1074). In *Proceedings of COLING 2016*. 
 * Erica Greene, Tugba Bodrumlu and Kevin Knight. 2010. [Automatic Analysis of Rhythmic Poetrywith Applications to Generation and Translation](https://www.aclweb.org/anthology/D10-1051). In *Proceedings of EMNLP 2010*. 
 
 <h2 id="translation">Poetry Translation</h2>
 
+* Zhichao Yang, Pengshan Cai, Yansong Feng, Fei Li, Weijiang Feng, Elena Suet-Ying Chiu and Hong Yu. [Generating Classical Chinese Poems from Vernacular Chinese](https://www.aclweb.org/anthology/D19-1637.pdf). In *Proceedings of EMNLP 2019*. &nbsp; \[[code](https://github.com/whaleloops/interpoetry)\]
 * Marjan Ghazvininejad, Yejin Choi, and Kevin Knight. 2018. [Neural Poetry Translation](https://aclweb.org/anthology/N18-2011). In *Proceedings of NAACL 2018*. 
 * Dmitriy Genzel, Jakob Uszkoreit and Franz Och. ["Poetic" Statistical Machine Translation: Rhyme and Meter](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36745.pdf). In *Proceedings of EMNLP 2010*.  
 
 <h2 id="demo">Demo</h2>
 
+* Jinyi Hu and Maosong Sun. 2020. [Generating Major Types of Chinese Classical Poetry in a Uniformed Framework](https://arxiv.org/abs/2003.11528). In *Proceedings of  Language Resources and Evaluation Conference 2020*.
+* Zhipeng Guo, Xiaoyuan Yi, Maosong Sun, Wenhao Li, Cheng Yang, Jiannan Liang, Huimin Chen, Yuhui Zhang and Ruoyu Li. 2019. [Jiuge: A Human-Machine Collaborative Chinese Classical Poetry Generation System](https://www.aclweb.org/anthology/P19-3005). In *Proceedings of ACL 2019*.
 * Marjan Ghazvininejad, Xing Shi, Jay Priyadarshi and Kevin Knight. 2017. [Hafez: An Interactive Poetry Generation System](https://www.aclweb.org/anthology/P17-4008). In *Proceedings of ACL 2017*.
 * Hugo Gonçalo Oliveira. 2012. [PoeTryMe: a Versatile Platform for Poetry Generation](https://eden.dei.uc.pt/~hroliv/pubs/GoncaloOliveira2012_c3gi_CRC.pdf). In *Proceedings of the Workshop Computational Creativity, Concept Invention, and General Intelligence*. 
 
